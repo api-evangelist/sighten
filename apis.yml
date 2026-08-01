@@ -1,19 +1,51 @@
 aid: sighten
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sighten.png
 name: Sighten
-description: Sighten is a company surfaced as a portfolio company of obvious-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sighten was a San Francisco software company, backed by Obvious Ventures, that
+  built a cloud platform for the residential and commercial solar industry —
+  covering system design, proposal generation, sales, and financing workflows
+  used by solar installers, dealers, and finance providers. The Sighten business
+  was acquired (by GoodLeap) and folded into EverBright; the original sighten.io
+  domain now redirects to goeverbright.com. EverBright operates as a residential
+  solar and home-battery financing platform, connecting homeowners with local
+  installers through lease and Power Purchase Agreement (PPA) products and the
+  MyEverBright monitoring portal. No public developer API, developer portal, or
+  API documentation is published for the Sighten or EverBright brand; a
+  partner-facing platform (engine.goeverbright.com) and a protected API host
+  (api.goeverbright.com, HTTP 401) exist but are not publicly documented. This
+  profile records the company's current, honest public surface after enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/sighten/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - obvious-ventures
+x-successor: everbright
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Solar
+- Clean Energy
+- Renewable Energy
+- Solar Software
+- Solar Financing
+- Home Energy
+- Energy
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://sighten.io
+- type: Blog
+  url: https://www.goeverbright.com/blog
+- type: PrivacyPolicy
+  url: https://www.goeverbright.com/privacy-policy
+- type: Support
+  url: https://www.goeverbright.com/contact
+- type: HelpCenter
+  url: https://www.goeverbright.com/faq
+- type: Login
+  url: https://myeverbright.com/login
+- type: TrustCenter
+  url: https://trust.goeverbright.com/
+- type: Compliance
+  url: security/sighten-trust-center.yml
+- type: DomainSecurity
+  url: security/sighten-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

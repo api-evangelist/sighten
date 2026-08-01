@@ -1,0 +1,23 @@
+generated: '2026-07-21'
+method: searched
+source: https://trust.goeverbright.com/
+note: >-
+  Sighten's domain (sighten.io) redirects to EverBright (goeverbright.com); the
+  trust center below is EverBright's, the successor entity that absorbed the
+  Sighten solar-software business. Verified live 2026-07-21.
+url: https://trust.goeverbright.com/
+certifications:
+- CCPA
+- GLBA
+compliance_frameworks:
+- CCPA
+- GLBA
+security_certifications: []
+notes: >-
+  Trust Center names only the CCPA (California Consumer Privacy Act) and GLBA
+  (Gramm-Leach-Bliley Act) regulatory-compliance regimes. No SOC 2, ISO 27001,
+  PCI DSS, HIPAA, or FedRAMP certifications were published on the page as of the
+  probe date.
+evidence:
+- source: https://trust.goeverbright.com/
+  keywords: [ccpa, glba, trust center]
